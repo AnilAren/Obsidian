@@ -1,12 +1,24 @@
 
-- **Iterator** = <mark style="background: #D2B3FFA6;">interface / concept (anyone can implement it)</mark>
+- **Iterator** = <mark style="background: #D2B3FFA6;">protocol ....interface / concept (anyone can implement it)</mark>
   **Generator** = <mark style="background: #D2B3FFA6;">Python’s built-in, optimized implementation of that concept</mark>
 
 - An iterator is any object in Python that implements `__iter__()` and `__next__()`.  
 A generator is a special kind of iterator that you create using the `yield` keyword.  
-Generators are memory-efficient because they produce items on demand instead of storing the whole sequence in memory.
+Generators are memory-efficient because they produce items on demand instead of storing the whole sequence in memory.(this is list vs generators, iterators are a concept or protocol)
 
---> [[Iterators]] - An **iterator is an object you can loop over**, which remembers its position during iteration.
+## What does **“any object”** mean?
+
+In Python, **everything is an object** — integers, strings, lists, files, functions, even classes.  
+So when we say:
+
+> “An iterator is any object that implements `__iter__()` and `__next__()`”
+
+We mean:  
+👉 If _you_ create **any class or instance** that defines these two methods, **Python treats it as an iterator**.
+
+## 
+
+--> [[Iterators]] - **An iterator is any object in Python you can loop over**, which remembers its position during iteration.
 
 [[Iterators#How will the generator gets next element]]
 
@@ -18,7 +30,7 @@ Generators are memory-efficient because they produce items on demand instead of 
 - <mark style="background: #D2B3FFA6;">BOTH ITERATORS AND GENERATORS ARE LAZY EVALUATION </mark>
 		**Lazy evaluation** means:  
 		_Don’t compute or fetch a value until you actually need it._
-		Both iterators and generators are **lazy** → compute next value **only when needed**.
+	Both iterators and generators are **lazy** → compute next value **only when needed**.
 - Both iterators and generators are lazy, <mark style="background: #FFB8EBA6;">but generators are more efficient </mark>because Python implements them in C — they handle state and `StopIteration` automatically, use less memory, and run faster than custom Python iterator classes.
 - All generators follow the iterator protocol ✅
   But not all iterators are created by yield ❌
@@ -95,4 +107,4 @@ These are _also_ iterators/generators under the hood (worth knowing for intervie
 | **Speed (large data)** | May become very slow (too much memory)        | Much faster — constant memory use            |
 | **When to use**        | Small/medium datasets you need multiple times | Large/infinite datasets or stream processing |
 
-##
+

@@ -1,6 +1,6 @@
 - It is an object that lets you loop through elements one by one.
 
-- **Iterator** = <mark style="background: #D2B3FFA6;">interface / concept (anyone can implement it)</mark>
+- **Iterator** = <mark style="background: #D2B3FFA6;">protocol.... interface / concept (anyone can implement it)</mark>
 
 - It  implements two special methods 
 	- `__iter__()` --> returns the iterator object itself
@@ -71,7 +71,7 @@ For <mark style="background: #ADCCFFA6;">lists</mark>, it’s an index;
 for <mark style="background: #ADCCFFA6;">dicts/sets</mark>, it’s a hash slot; 
 for <mark style="background: #ADCCFFA6;">generators</mark>, it’s the saved function frame.
 
-## is for loop a iterator
+## Is for loop a iterator
 
 <mark style="background: #FFF3A3A6;">❌ The **`for` loop itself is _not_ an iterator.**  </mark>
 <mark style="background: #FFF3A3A6;">✅ But it **uses an iterator internally** to loop over an iterable.
