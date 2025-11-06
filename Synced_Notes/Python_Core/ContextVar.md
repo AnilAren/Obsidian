@@ -61,9 +61,9 @@ each will have its own independent value of `user_ctx`.
 	Simple Example:
 	```
 	async def handle_request(user):
-    user_name = user       # local variable
-    await process_data()
-    print(user_name)
+	    user_name = user       # local variable
+	    await process_data()
+	    print(user_name)
 	```
 
 Inside `handle_request`, `user_name` is totally safe.  

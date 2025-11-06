@@ -7,13 +7,14 @@ Compared to pip, it’s much faster and smarter, and compared to poetry, it’s 
 
 
 
-|Question|Key Points|
-|---|---|
-|**What is uv?**|New fast Python package manager by Astral (Rust-based).|
-|**How is it different from pip?**|Handles installs + environments + lock files; pip is just an installer.|
-|**How is it different from poetry?**|Similar goals (dependency management) but faster, simpler, and pip-compatible.|
-|**Compatible with existing tools?**|Yes — can be used alongside pip or poetry.|
-|**Main benefit?**|Speed, reproducibility, and unified workflow.|
+| Question                             | Key Points                                                                     |
+| ------------------------------------ | ------------------------------------------------------------------------------ |
+| **What is uv?**                      | New fast Python package manager by Astral (Rust-based).                        |
+| **How is it different from pip?**    | Handles installs + environments + lock files; pip is just an installer.        |
+| **How is it different from poetry?** | Similar goals (dependency management) but faster, simpler, and pip-compatible. |
+| **Compatible with existing tools?**  | Yes — can be used alongside pip or poetry.                                     |
+| **Main benefit?**                    | Speed, reproducibility, and unified workflow.                                  |
+|                                      |                                                                                |
 
 ---
 

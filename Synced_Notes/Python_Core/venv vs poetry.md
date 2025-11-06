@@ -81,6 +81,12 @@ pip install -r requirements.txt
 
 ## 🧩 Poetry — Modern Dependency Management
 
+**Poetry** is a **tool for managing dependencies and packaging** in Python projects
+
+>	Poetry is a modern Python tool that replaces the need for `pip`, `requirements.txt`, and `setup.py`.  
+	It automatically creates virtual environments, installs dependencies, maintains a lock file for reproducible builds, and can even build and publish packages to PyPI.  
+	Basically, it provides a clean, consistent workflow for Python project management
+
 **Poetry** handles:
 
 - Virtual environments

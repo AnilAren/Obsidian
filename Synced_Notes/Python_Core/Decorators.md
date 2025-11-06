@@ -197,7 +197,7 @@ class Example:
 
 ```
 
-OR
+OR import from differnt file
 
 ```
 class logger:

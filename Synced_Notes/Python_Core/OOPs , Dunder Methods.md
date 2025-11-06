@@ -69,20 +69,21 @@ Dog().speak()  # Dog barks
 **Idea:** Same interface, different behavior.
 
 ```
-class Cat:
-    def sound(self):
-        return "Meow"
+class Animal:
+    def speak(self):
+        print("Animal speaks")
 
-class Dog:
-    def sound(self):
-        return "Bark"
+class Dog(Animal):
+    def speak(self):
+        print("Dog barks")
 
-for animal in [Cat(), Dog()]:
-    print(animal.sound())
-    
-Output:
-Meow
-Bark
+class Cat(Animal):
+    def speak(self):
+        print("Cat meows")
+
+# Polymorphism in action
+for animal in [Dog(), Cat(), Animal()]:
+    animal.speak()
 
 ```
 

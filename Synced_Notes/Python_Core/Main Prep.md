@@ -1,4 +1,4 @@
-
+- [[SOLID]]
  - [[Data Type Complexity]]
  - [[Module Package Library]]
  - [[Iterators]]
@@ -19,10 +19,12 @@
  - [[Design Patterns]]
  - [[Memory and Performance]]
  - [[Functional Programming]]
- - [[File and I/O Handling]]
- - [[Serialization]]
+ - [[File and I-O Handling]]
+ - [[Serialization & De-Serialization]]
  - [[Packaging & Imports]]
  -  [[PEP 8]]
+ - [[pathlib vs os]]
+ - 
 
 | Category                                                       | Topic                                                                                                 | Why It Matters                                                                                      |
 | -------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
