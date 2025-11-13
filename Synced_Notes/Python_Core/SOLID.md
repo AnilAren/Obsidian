@@ -74,6 +74,10 @@ class Discount:
 ```
 
 If you add a new type, you must **modify** the class.
+Why it's NOT OCP:
+
+- Every time you add a new discount type (e.g., "platinum"), you must **modify this class**.
+- Violates OCP because the class isn't closed to modification.
 
 Better ✅:
 
@@ -92,6 +96,18 @@ class GoldDiscount(Discount):
 ```
 
 Now you just **extend** the class — no need to modify existing code.
+Why it **follows OCP**:
+
+- The base class `Discount` is **closed for modification**.
+- To add new behavior (e.g., Platinum), you **extend** the class instead of modifying it:
+
+```
+class PlatinumDiscount(Discount):
+    def get_discount(self):
+        return 30
+```
+
+
 
 ---
 

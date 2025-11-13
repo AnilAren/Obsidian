@@ -80,7 +80,22 @@ Output:
 
 ```
 
-we add formatter to the handler
+**we add formatter to the handler**
+
+#### ✅ Common predefined logging fields
+
+| Placeholder          | Meaning                                |
+| -------------------- | -------------------------------------- |
+| **`%(asctime)s`**    | Timestamp (formatted by `datefmt`)     |
+| **`%(levelname)s`**  | Log level name (`INFO`, `ERROR`, etc.) |
+| **`%(message)s`**    | The actual log message                 |
+| **`%(name)s`**       | Logger name                            |
+| **`%(filename)s`**   | File name of the caller                |
+| **`%(lineno)d`**     | Line number where log was called       |
+| **`%(funcName)s`**   | Calling function name                  |
+| **`%(process)d`**    | Process ID                             |
+| **`%(thread)d`**     | Thread ID                              |
+| **`%(threadName)s`** | Thread name                            |
 ## Get logger
 
 You **almost never** create a `Logger()` manually.

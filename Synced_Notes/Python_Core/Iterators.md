@@ -61,6 +61,24 @@ Output:
 
 ```
 
+---
+
+When you do this:
+
+```
+lst = [1, 2, 3, 4] 
+it = iter(lst)
+```
+
+- `lst` **stores the entire list** (because it’s a list)
+- `it` is just an **iterator object pointing to `lst`**  
+    It stores:
+    - a **reference** to the list
+    - a **current index**
+
+Iterator does **not** duplicate or store the list again.
+
+---
 ## How will the Iterator gets next element 
 
 An iterator keeps an internal state in memory — like an<mark style="background: #BBFABBA6;"> index or a pointer</mark> — along with a <mark style="background: #BBFABBA6;">reference to the data source.  </mark>

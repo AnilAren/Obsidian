@@ -226,3 +226,4 @@ class Example:
 |**With arguments**|Decorator factory|`@repeat(3)`|
 |**Preserve metadata**|Use `@wraps(func)`|From `functools`|
 |**Applied to**|Functions, methods, or classes|`@classmethod`, `@staticmethod`|
+WE CAN DECORATE CLASS AS WELL

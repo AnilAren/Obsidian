@@ -11,7 +11,7 @@
 > “Because it uses a hash table — it computes a hash of the key, which gives a direct index to access the value, leading to O(1) average lookup and insertion time. Collisions are handled efficiently through open addressing and resizing, keeping it near-constant in practice.
 
 In words:
-	Collisions happens when two different keys get the same hash key ( because of limited spavce).
+	Collisions happens when two different keys get the same hash key ( because of limited space).
 	In python colisions are rarely seen beacusae of good hash functions, dynamic resixing of hadh memorey every time hash gets 2/3 rd full python resizes it.also hash uses a salt with random seed so thats why it is rarely possible.
 	But if  it happens then if the bucket is full is full it will get the next bucket via deterministic pattern
 	Thus we have avg and worst case for set and dict
