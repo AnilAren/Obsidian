@@ -10,6 +10,8 @@
 
 ### 1. Encapsulation
 
+It means **hiding internal details** and **exposing only what is necessary**.
+
 **Idea:** Restrict direct access to object data — use methods instead.
 
 ```

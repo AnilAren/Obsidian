@@ -15,12 +15,12 @@ Python handles memory automatically through a **private heap space**, managed by
 
 ### 🔹 Key Components
 
-| Concept | Description |
-|----------|--------------|
-| **Object allocation** | Every value (int, string, list, etc.) is an object stored in the heap. |
-| **Reference counting** | Python tracks how many references point to an object. When the count hits zero, memory is released. |
-| **Garbage Collector (GC)** | Detects and cleans up **cyclic references** (objects referencing each other). Uses **generational GC** for efficiency. |
-| **Memory pools (pymalloc)** | Manages small object allocations efficiently, minimizing system calls. |
+| Concept                     | Description                                                                                                            |
+| --------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| **Object allocation**       | Every value (int, string, list, etc.) is an object stored in the heap.                                                 |
+| **Reference counting**      | Python tracks how many references point to an object. When the count hits zero, memory is released.                    |
+| **Garbage Collector (GC)**  | Detects and cleans up **cyclic references** (objects referencing each other). Uses **generational GC** for efficiency. |
+| **Memory pools (pymalloc)** | Manages small object allocations efficiently, minimizing system calls.                                                 |
 
 ---
 
@@ -128,11 +128,11 @@ for i in range(1000000):
 
 ### 🔹 (G) Profiling Performance
 
-|Tool|Description|
-|---|---|
-|`timeit`|Micro-benchmarking small code snippets.|
-|`cProfile`|Comprehensive performance profiling.|
-|`line_profiler`|Per-line execution time analysis.|
+| Tool            | Description                             |
+| --------------- | --------------------------------------- |
+| `timeit`        | Micro-benchmarking small code snippets. |
+| `cProfile`      | Comprehensive performance profiling.    |
+| `line_profiler` | Per-line execution time analysis.       |
 
 Example:
 ```

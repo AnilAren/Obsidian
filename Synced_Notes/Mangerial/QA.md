@@ -14,7 +14,36 @@ I have hands-on experience with Python, cloud technologies, and backend developm
 Along with the technical skills, I bring strong ownership, clear communication, and the ability to learn quickly and perform well in fast-paced environments. I’m confident I can contribute effectively from day one.
 #### Why EY?
 
-EY is known for solving complex business problems with modern engineering. The opportunity to contribute to AI-driven and cloud-native solutions across multiple industries excites me. I want to grow in an environment that values innovation, ownership, and consulting mindset — and EY is the best place for that.
+I’m drawn to EY because it’s one of the few places where advanced engineering, consulting, and real business impact come together. EY is not just building solutions — it’s solving high-scale, complex problems for global clients using cloud, AI, and modern architectures.
+
+What excites me most is the chance to work on end-to-end AI and digital transformation projects, where I can apply my engineering skills, learn from industry experts, and directly see the impact of my work. EY’s culture of continuous learning, ownership, and innovation makes it a great environment for someone who wants to grow fast and take on meaningful challenges.
+#### Tell me about a skill you have that you haven't taked about
+
+One skill I haven’t mentioned is my ability to quickly break down complex problems into clear, actionable technical steps.
+
+Whenever I face a new or ambiguous requirement — whether it's designing an API, or building an AI workflow — I naturally break it into smaller components, map the dependencies, and identify the quickest path to a working solution.
+
+This skill helps me move fast, stay organized, and give the team clarity. It also reduces rework because we catch risks early. I’ve found it especially useful when working with cross-functional teams or when timelines are tight.
+
+
+#### Describe a time you contributed to a high performing team
+
+
+
+#### Tell me about a time you disagreed with someone's point of view and how you managed that
+
+**Situation:**  
+During a POC we were developing, a senior team member and I had different ideas about how the solution should be designed.
+
+**Task:**  
+My responsibility was to evaluate both approaches and ensure we chose the most scalable and efficient solution for the POC.
+
+**Action:**  
+I first listened carefully to his full approach to understand the reasoning behind it. Once I had the complete picture, I walked him through the potential bottlenecks and limitations I saw, using real scenarios and expected workloads. I then presented my alternative approach with supporting reasoning. We discussed multiple edge cases, debated the trade-offs objectively, and validated how each design would behave in different situations.
+
+**Result:**  
+Through that discussion, we reached a consensus on a refined approach that combined the strengths of both ideas and avoided the bottlenecks. The POC ran smoothly and the structure we agreed on eventually became the base for the later implementation. This experience reinforced how constructive communication and evidence-based discussion help resolve technical disagreements effectively.
+#### 
 
 #### What is your weakness?
 
