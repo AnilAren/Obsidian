@@ -212,17 +212,17 @@ Extract tables separately, flatten as structured text (CSV-like).
 
 ## 🔚 Summary Table — When to Use What
 
-|Strategy|Ideal Documents|Key Benefit|Key Risk|
-|---|---|---|---|
-|Page-based|Reports, PDFs|Fast baseline|Inconsistent chunk sizes|
-|Fixed-size (chars)|Logs, code|Simple, language-agnostic|Breaks sentences|
-|Sliding-window|Tutorials, mixed text|Context continuity|Duplication overhead|
-|Sentence-based|FAQs, summaries|Granular retrieval|Too short context|
-|Paragraph-based|Articles, textbooks|Natural boundaries|Inconsistent lengths|
-|Heading-based|Structured docs|Semantic coherence|Requires parsing|
-|Semantic|Research, multi-topic|Context-aware chunks|Heavy computation|
-|Hybrid|Enterprise pipelines|Balanced & robust|Complex to tune|
-|Table-aware|Reports w/ tables|Preserves structure|Parsing complexity|
+| Strategy           | Ideal Documents       | Key Benefit               | Key Risk                 |
+| ------------------ | --------------------- | ------------------------- | ------------------------ |
+| Page-based         | Reports, PDFs         | Fast baseline             | Inconsistent chunk sizes |
+| Fixed-size (chars) | Logs, code            | Simple, language-agnostic | Breaks sentences         |
+| Sliding-window     | Tutorials, mixed text | Context continuity        | Duplication overhead     |
+| Sentence-based     | FAQs, summaries       | Granular retrieval        | Too short context        |
+| Paragraph-based    | Articles, textbooks   | Natural boundaries        | Inconsistent lengths     |
+| Heading-based      | Structured docs       | Semantic coherence        | Requires parsing         |
+| Semantic           | Research, multi-topic | Context-aware chunks      | Heavy computation        |
+| Hybrid             | Enterprise pipelines  | Balanced & robust         | Complex to tune          |
+| Table-aware        | Reports w/ tables     | Preserves structure       | Parsing complexity       |
 
 ---
 

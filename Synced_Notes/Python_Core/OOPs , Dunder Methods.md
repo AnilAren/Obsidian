@@ -9,6 +9,8 @@
 ## Four Pillars of OOP in Python
 
 ### 1. Encapsulation
+**Hiding internal data + providing controlled access using methods.**
+
 
 It means **hiding internal details** and **exposing only what is necessary**.
 
@@ -39,6 +41,8 @@ Unlike some other programming languages, Python doesn’t have true private vari
 
 ### 2. Inheritance
 
+**One class acquires properties and methods of another class.**
+
 - Inheritance allows a class (child/subclass) to **acquire properties and behaviors** (attributes and methods) from another class (parent/superclass).
 
 **Idea:** Reuse and extend existing class behavior.
@@ -66,6 +70,8 @@ Dog().speak()  # Dog barks
 
 ### 3. Polymorphism
 
+**One method behaves differently based on the object.**
+
 - Polymorphism means **“many forms”** — it allows different classes to define methods with the same name but potentially different behaviors.
 
 **Idea:** Same interface, different behavior.
@@ -90,6 +96,8 @@ for animal in [Dog(), Cat(), Animal()]:
 ```
 
 ### 4. Abstraction
+
+**Showing only essential info, hiding complex details.**
 
 - **Abstraction** means **hiding the internal details** of how something works and **showing only the essential features** to the user. 
 
@@ -139,6 +147,9 @@ you just know that any payment gateway must have a `.make_payment()` method.
 ## Important Dunder Methods (Magic Methods)
 
 - **Magic methods** (also called **dunder methods**) are **special predefined methods in Python** that start and end with **double underscores**
+
+
+> **Python has 100+ magic methods (dunder methods).**
 
 These make your classes behave like built-ins.
 
